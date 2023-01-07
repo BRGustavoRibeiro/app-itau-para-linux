@@ -23,7 +23,7 @@ Script de instalação do App Itaú no computador (para Linux)
 Neste momento, o script apenas é compatível com sistemas que usam o gerenciador de pacotes DEB (Ubuntu, Linux Mint, etc).
 
 ## Funcionamento
-Este script faz o download do binário do App Itaú no computador para Windows, instala e configura o Wine e as dependências necessárias para executar o app dentro do Linux.
+Este script faz o download do binário do App Itaú no computador para Windows, instala e configura o aplicativo Bottles (necessário para execução) e as dependências necessárias para executar o app dentro do Linux.
 
 ## Segurança e Processamento de Dados
 Este script não coleta dados de nenhuma forma ou natureza. Não há envio de quaisquer tipos de informação para os colaboradores deste repositório. A segurança padrão é fornecida pelo próprio App Itaú. Há planos para criar um modo ultraseguro, que desabilitaria funções de acesso remoto e adicionaria outras opções para garantir máxima segurança durante o uso do app.
