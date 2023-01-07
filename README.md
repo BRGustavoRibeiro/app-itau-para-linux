@@ -15,6 +15,7 @@ Script de instalação do App Itaú no computador (para Linux)
 1. Abra o terminal do Linux;
 2. Digite o comando `bash <(wget -qO- https://raw.githubusercontent.com/BRGustavoRibeiro/app-itau-para-linux/main/Install.sh)`
 3. Aceite os termos de uso e declaração de ciência pressionando `[S]` + `[Enter]`;
+4. Escolha se você deseja instalar a versão estável ou a versão beta do aplicativo do Itaú.
 
 *É provável que seja necessário digitar a senha do administrador do computador, a menos que você esteja já logado como root.*
 
@@ -29,5 +30,4 @@ Este script não coleta dados de nenhuma forma ou natureza. Não há envio de qu
 
 ## A fazer
 - [ ] Suporte ao RPM (Fedora, RHEL, etc)
-- [ ] Criar sistema de escolha entre versão normal (estável) e beta do aplicativo
 - [ ] Criar mecanismos de segurança e blindagem próprios para o Linux (Modo Ultraseguro)
