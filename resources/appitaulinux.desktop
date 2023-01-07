@@ -4,7 +4,7 @@ Exec=flatpak run --command=bottles-cli com.usebottles.bottles run -p itauaplicat
 Type=Application
 Terminal=false
 Categories=Application;
-Icon=DIRETORIO/.var/app/com.usebottles.bottles/data/bottles/bottles/ItauLinux/icons/itauaplicativo.png
+Icon=DIRETORIO/.var/app/com.usebottles.bottles/.local/itau-icon.png
 Comment=Execute o app Itaú no computador
 StartupWMClass=itauaplicativo
 Actions=Configure;
