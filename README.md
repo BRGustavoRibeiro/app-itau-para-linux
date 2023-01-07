@@ -11,6 +11,13 @@ Script de instalação do App Itaú no computador (para Linux)
 
 *AO UTILIZAR ESTE SCRIPT, VOCÊ CONCORDA INTEGRALMENTE COM OS TERMOS ACIMA, E DECLARA TER TOTAL E PLENA CIÊNCIA DAS INFORMAÇÕES FORNECIDAS.*
 
+## Como instalar
+1. Abra o terminal do Linux;
+2. Digite o comando `bash <(wget -qO- https://raw.githubusercontent.com/BRGustavoRibeiro/app-itau-para-linux/main/Install.sh)`
+3. Aceite os termos de uso e declaração de ciência pressionando `[S]` + `[Enter]`;
+
+*É provável que seja necessário digitar a senha do administrador do computador, a menos que você esteja já logado como root.*
+
 ## Compatibilidade
 Neste momento, o script apenas é compatível com sistemas que usam o gerenciador de pacotes DEB (Ubuntu, Linux Mint, etc).
 
