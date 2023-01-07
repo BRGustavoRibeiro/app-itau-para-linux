@@ -54,7 +54,7 @@ select opt in "Versão estável" "Versão beta" "Cancelar e sair";
   esac
 done
 
-printf "\n\n$(tput setaf 0)$(tput setab 11) Instalação iniciada! $(tput sgr0)\nIsto pode levar alguns minutos.\n\n"
+printf "\n\n$(tput setaf 0)$(tput setab 11) Instalação iniciada! $(tput sgr0)\nIsto pode levar alguns minutos.\nÉ provável que você precise digitar a senha de administrador abaixo. Se você já estiver autenticado, a instalação irá prosseguir automaticamente.\n"
 
 sudo add-apt-repository -y ppa:flatpak/stable
 sudo apt-get update
@@ -81,5 +81,5 @@ wget -O $(eval echo ~)/.local/share/applications/appitaulinux.desktop https://ra
 wget -O $(eval echo ~)/.var/app/com.usebottles.bottles/.local/itau-icon.png https://github.com/BRGustavoRibeiro/app-itau-para-linux/raw/main/resources/icon.png
 sed -i "s#DIRETORIO#$(eval echo ~)#" $(eval echo ~)/.local/share/applications/appitaulinux.desktop
 
-printf "\n\n$(tput setaf 0)$(tput setab 11) Instalação concluída! $(tput sgr0)\n\n"
+printf "\n$(tput setaf 0)$(tput setab 11) Instalação concluída! $(tput sgr0)\n\n"
 exit 0
