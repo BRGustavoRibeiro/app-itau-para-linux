@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Itaú
+Exec=flatpak run --command=bottles-cli com.usebottles.bottles run -p itauaplicativo -b 'ItauLinux' -- %u
+Type=Application
+Terminal=false
+Categories=Application;
+Icon=DIRETORIO/.var/app/com.usebottles.bottles/data/bottles/bottles/ItauLinux/icons/itauaplicativo.png
+Comment=Execute o app Itaú no computador
+StartupWMClass=itauaplicativo
+Actions=Configure;
+[Desktop Action Configure]
+Name=Configure in Bottles
+Exec=flatpak run com.usebottles.bottles -b 'ItauLinux'
